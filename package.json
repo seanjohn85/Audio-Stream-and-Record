@@ -1,0 +1,16 @@
+{
+    "name": "audio recorder"
+    , "version": "1.0.0"
+    , "description": "store real time audio to a node server using websockets"
+    , "main": "server.js"
+    , "scripts": {
+        "test": "node server"
+    }
+    , "author": "John Kenny"
+    , "license": "ISC"
+    , "dependencies": {
+        "binaryjs": "^0.2.1"
+        , "express": "^4.15.3"
+        , "wav": "^1.0.1"
+    }
+}
